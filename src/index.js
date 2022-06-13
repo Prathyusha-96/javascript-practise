@@ -1,14 +1,14 @@
-import "./styles.css";
-function consoleNum() {
-  var isworkshop = true;
-  var num = 10;
-  if (isworkshop) {
-    let num = 20;
-    console.log(num);
-  }
-  console.log(num);
-}
-consoleNum();
+
+// function consoleNum() {
+//   var isworkshop = true;
+//   var num = 10;
+//   if (isworkshop) {
+//     let num = 20;
+//     console.log(num);
+//   }
+//   console.log(num);
+// }
+// consoleNum();
 // concating
 // function sum(a, b) {
 //   return a + b; //12
@@ -33,3 +33,15 @@ consoleNum();
 //    let b = 9;
 //    console.log(b);
 //  }
+
+// setTimeout;
+function x() {
+ 
+  for(var i = 0; i <= 4; i++){
+    setTimeout(function () {
+      console.log(i)
+    }, i * 3000)
+  }
+  console.log("hello world")
+}
+x ();
